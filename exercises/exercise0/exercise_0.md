@@ -65,18 +65,18 @@ Fill in this table either by copying this into your own markdown file or copy it
 
 | terminology | explanation |
 | ----------- | ----------- |
-| artist      |             |
-| containers  |             |
-| spine       |             |
-| axes        |             |
-| figure      |             |
-| subplot     |             |
-| patch       |             |
-| annotation  |             |
-| arrowprops  |             |
-| marker      |             |
-| ticks       |             |
-| ticklabels  |             |
-| layout      |             |
-| grid        |             |
-| legend      |             |
+| artist      | The base class for all visible elements in a Matplotlib plot (e.g., lines, text, patches). Every element drawn is an Artist. |
+| containers  | Groups of multiple artists (like bars or error bars) that are managed together. |
+| spine       | The lines representing the borders of the plot area (top, bottom, left, right). |
+| axes        | The area where data is plotted, including axis lines, ticks, labels, and the actual data visualization. |
+| figure      | The entire window or image that contains one or more Axes (plots). |
+| subplot     | A specific Axes object arranged in a grid within a Figure, using `plt.subplot()` or `plt.subplots()`. |
+| patch       | A 2D shape (rectangle, circle, polygon, etc.) used to visually represent data or add shapes to the plot. |
+| annotation  | Text and/or arrows used to label or highlight specific parts of the plot. Created with `ax.annotate()`. |
+| arrowprops  | A dictionary of arrow style settings used with `annotate()` (e.g., arrow style, color, width). |
+| marker      | A symbol used to represent a single data point (e.g., circle, triangle, square) on a line or scatter plot. |
+| ticks       | The small marks on axes indicating scale or position along the axis. |
+| ticklabels  | The labels (numbers or text) next to ticks that explain their values. |
+| layout      | The arrangement of elements (titles, axes, legends, etc.) in a figure. Can be controlled with `tight_layout()` or `constrained_layout`. |
+| grid        | Horizontal and/or vertical lines across the plot to help visually align data points with axis values. |
+| legend      | A box that identifies which plot elements (lines, bars, etc.) correspond to which labels or categories. |
