@@ -1,0 +1,47 @@
+### FIGURE
+figure.facecolor: white
+figure.dpi: 300 # standard size, don´t go over 600 
+figure.figsize: 10,6
+figure.constrained_layout.use : False
+
+
+
+### LINES
+lines.linewidth: 3
+
+### FONTS
+# font.family: sans-serif
+# font.sans-serif: Avenir, 'Avenir Next LT Pro', Arial, Helvetica, sans-serif
+# font.weight: bold
+font.size: 10
+
+### LABEL AND TICK COLORS
+
+xtick.color: "#4A606C" 
+ytick.color: "#4A606C" # Allavärden på yaxeln, ej rubriker
+axes.titlecolor: "#4A606C"
+axes.labelcolor: "#4A606C"
+
+### TICKS
+xtick.bottom: True
+ytick.left: False # streck vid x axeln
+
+### TICK PADDING
+
+xtick.major.pad: 5
+ytick.major.pad: 10
+ytick.minor.pad: 4
+xtick.minor.pad: 4
+axes.labelpad: 7 # # Of job distance
+
+### AXES
+
+axes.spines.right: False
+axes.spines.top: False
+axes.linewidth: 1.0
+axes.titlesize: 14 # titel
+axes.labelsize: 10 # x, y rubriker
+axes.labelweight: "bold"
+
+
+
