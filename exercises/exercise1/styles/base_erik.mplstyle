@@ -1,8 +1,43 @@
+### Fonts
+
+font.family : Tahoma
+
+### Figures
+figure.facecolor: white
+figure.dpi: 300
+figure.figsize: 10,6
+figure.constrained_layout.use : False
+
+### Axes
+
+axes.spines.top: False
+axes.spines.right: False
 
 
-    ax.set_xlabel("State", loc = "left", labelpad=0.5)
-    ax.set_ylabel("Number of foreigners", labelpad=0.5)
-    ax.yaxis.set_label_coords(-0.05, 0.8)
+### Ticks
+xtick.bottom: False
+ytick.left: False
+
+### Labels
+
+axes.labelsize : 15        
+axes.labelpad : 10      # för xaxeln
+axes.titlesize : 20
+
+### Colors
+
+
+axes.prop_cycle : cycler('color', ['#8ECAE6', '#219EBC', '#023047', '#FFB703', '#FB8500'])
+
+
+
+
+
+
+
+
+
+
 
 
 

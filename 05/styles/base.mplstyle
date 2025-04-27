@@ -29,6 +29,7 @@ axes.titlecolor: "#4A606C"
 axes.labelcolor : "#4A606C"
 
 
+
 # TICK PADDING
 xtick.major.pad : 5
 ytick.major.pad : 10
