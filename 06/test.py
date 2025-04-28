@@ -1,1 +1,4 @@
-fig = px.line(sweden, x = "year", y = "pop", title = "Population in Sweden between 1952-2007", labels = dict(year = "YEAR", pop ="POPULATION")
+import plotly.express as px
+
+
+print("hej")
