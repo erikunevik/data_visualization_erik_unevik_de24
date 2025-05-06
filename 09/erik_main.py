@@ -16,7 +16,7 @@ def filter_df_municipality(df, educational_area="Data/IT"):
         df.query("Utbildningsområde == @educational_area")["Kommun"]
         .value_counts()
         .reset_index()
-        .rename({"count": "Ansökta utbildningar"}, axis=1)
+        .rename({"count": "Ansökta utbildningar"}, axis=1) # Renaming count to ansökta utbildningar
     )
 
 
@@ -31,15 +31,15 @@ def filter_data(state):
         xlabel="ANSÖKTA UTBILDNINGAR",
     )
 
-    state.municipalities_title = state.number_municipalities
-    state.educational_area_title = state.selected_educational_area
+    state.municipalities_title = state.number_municipalities # kommuna antal titel
+    state.educational_area_title = state.selected_educational_area #utbildningsområde titel
 
 
 df_municipality = filter_df_municipality(df)
 
 
 municipality_chart = create_municpality_bar(
-    df_municipality.head(9), ylabel="KOMMUN", xlabel="ANSÖKTA UTBILDNINGAR"
+    df_municipality.head(9), ylabel="KOMMUN", xlabel="ANSÖKTA UTBILDNINGAR" # Default headline
 )
 
 
@@ -93,4 +93,4 @@ with tgb.Page() as page:
                 tgb.text("## Rådata", mode = "md")
                 tgb.table("{df}")
 
-Gui(page, css_file="assets/main.css").run(dark_mode=False, use_reloader=True, port=8080)
+Gui(page, css_file="assets/main.css").run( use_reloader=True, port=8080)
