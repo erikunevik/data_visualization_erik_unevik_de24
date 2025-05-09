@@ -1,2 +1,10 @@
 @import "variables.css";
 @import "layout_primitives.css";
+
+h1, 
+h2, 
+h3, 
+p { 
+    color: var(--primaryColor):
+}
+

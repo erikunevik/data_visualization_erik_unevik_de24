@@ -7,6 +7,6 @@
   }
   
   .stack-large > * + * {
-    margin-top: var(--s1);
+    margin-top: var(--s-3);
   }
   

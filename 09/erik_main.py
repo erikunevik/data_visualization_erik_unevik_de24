@@ -50,7 +50,7 @@ selected_educational_area = "Data/IT"
 educational_area_title = selected_educational_area
 
 with tgb.Page() as page:
-    with tgb.part(class_name="container card stack-large"):
+    with tgb.part(class_name="container card stack-large"): # Stack ger space mellan korten
         with tgb.part(class_name="card"):
             tgb.text("# MYH dashboard 2024", mode="md")
             tgb.text(

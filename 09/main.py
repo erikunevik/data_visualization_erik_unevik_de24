@@ -72,7 +72,7 @@ with tgb.Page() as page1:
                 tgb.slider(
                     value="{number_municipalities}",
                     min=5,
-                    max=len(df_municipality),
+                    max=len(filter_municipality(df)),
                     continuous=False,
                 )
                 # tgb.text("{number_municipalities} kommuner valda")
