@@ -1,2 +1,2 @@
 # data_visualization_erik_unevik_de24
-Learning data visualization
+Learning Datavisualization
