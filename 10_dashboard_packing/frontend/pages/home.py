@@ -13,3 +13,9 @@ with tgb.Page() as home_page:
             statistik och information kring ansökningsomgången för Yrkeshögskoleutbildningar (YH) under året 2024. Syftet med dashboarden är att ge en tydlig överblick över antalet ansökta utbildningar per kommun och utbildningsområde, med möjlighet att filtrera och analysera data utifrån användarens intresse.
             """
             )
+
+
+import pandas as pd
+import os
+
+
